@@ -1,0 +1,29 @@
+/* Decendent Selector */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+
+}
+
+section p {
+    color: red;
+}
+
+section > p {
+    color: goldenrod;
+}
+
+p + div {
+    border: 4px dotted blue;
+}
+
+div~p {
+    text-decoration: underline;
+}
+
+p:first-child {
+    color: cornflowerblue;
+}
